@@ -1,0 +1,28 @@
+{
+  "name": "yagi",
+  "version": "0.0.0",
+  "description": "Yagi Payments by Flap - NodeJS API Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yagi",
+    "flap",
+    "payments"
+  ],
+  "author": {
+    "name": "Ruben Rivera",
+    "email": "rrl@live.com.mx",
+    "url": "http://null.rocks/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nullrocks/yagi.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.74.0",
+    "validate.js": "^0.10.0"
+  }
+}

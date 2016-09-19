@@ -1,0 +1,38 @@
+{
+  "client": {
+    "error": {
+      "validation": "Los datos de cliente son incorrectos"
+    }
+  },
+  "transaction": {
+    "0": "Operación exitosa",
+    "002": "Nombre de tarjetahabiente inválido",
+    "003": "Número de tarjeta inválido",
+    "004": "Fecha inválida",
+    "005": "Tarjeta expirada",
+    "006": "El código de seguridad debe ser de 3 o 4 dígitos",
+    "007": "Importe inválido",
+    "009": "El Mail ingresado es inválido",
+    "011": "Medio de pago no soportado",
+    "012": "Medio de pago no disponible para el PV",
+    "013": "El importe es menor al permitido para este medio de pago",
+    "014": "El importe es mayor al permitido para este medio de pago",
+    "015": "El nodo no se encuentra en vigencia",
+    "016": "Número de cuotas incorrecto",
+    "018": "Concepto inválido",
+    "603": "Autenticación inválida",
+    "error": {
+      "validation": "Hacen falta datos necesarios para realizar la transaccion"
+    }
+  },
+  "error": {
+    "connection": "Ocurrio un problema estableciendo la coneccion a Yagi"
+  },
+  "statusCode": {
+    "400": "Bad Request - La sintaxis del request es inválida (ej. Parámetros inválidos)",
+    "401": "Unauthorized - Se presentó un error con la autenticación vía API_KEY",
+    "402": "Request Failed - Error en la transacción (ej. Tarjeta rechazada)",
+    "404": "Not Found - El método o recurso solicitado no existe",
+    "500": "Server Error - Error del lado de Multipagos"
+  }
+}
