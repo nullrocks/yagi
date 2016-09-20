@@ -1,7 +1,14 @@
 {
   "client": {
     "error": {
-      "validation": "Los datos de cliente son incorrectos"
+      "validation": "Los datos de cliente son incorrectos",
+      "id": "ID necesario"
+    }
+  },
+  "card": {
+    "error": {
+      "validation": "Los datos de cliente son incorrectos",
+      "id": "ID necesario"
     }
   },
   "transaction": {

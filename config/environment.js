@@ -1,8 +1,8 @@
+'use strict';
+
 /**
  * Set environment host and authentication token
  */
-
-'use strict';
 
 const environment = {
   production : {

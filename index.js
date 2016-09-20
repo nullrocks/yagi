@@ -9,9 +9,9 @@ module.exports = (token, dev) => {
   process.env.YAGI_TOKEN = token;
   process.env.YAGI_DEVELOPMENT = (dev) ? '1' : '0';
   
-  const factory = require('./lib/factory');
   const Client = require('./lib/client');
   const Card = require('./lib/card');
+  const factory = require('./lib/factory');
   const transaction = require('./lib/transaction');
   
   
