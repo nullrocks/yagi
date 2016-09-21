@@ -15,7 +15,7 @@ const environment = {
 
 let env = {};
 
-if ( parseInt(process.env.YAGI_DEVELOPMENT) ) {
+if ( process.env.YAGI_ENV === 'dev' || process.env.YAGI_ENV === 'development' ) {
   env = environment.development;
 } else {
   env = environment.production;

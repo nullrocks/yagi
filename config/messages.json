@@ -29,6 +29,7 @@
     "018": "Concepto inválido",
     "603": "Autenticación inválida",
     "error": {
+      "id": "ID necesario",
       "validation": "Hacen falta datos necesarios para realizar la transaccion"
     }
   },

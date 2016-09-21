@@ -2,12 +2,12 @@
 
 module.exports = (token, dev) => {
   
-  if ( !token ) {
-    throw new Error('node-yagi: Token must be provided');
+  if ( !token && !process.env.YAGI_TOKEN ) {
+    throw new Error('YAGI_TOKEN missing: Authorization Token must be provided');
   }
   
   process.env.YAGI_TOKEN = token;
-  process.env.YAGI_DEVELOPMENT = (dev) ? '1' : '0';
+  process.env.YAGI_ENV = (dev) ? 'dev' : 'production';
   
   const Client = require('./lib/client');
   const Card = require('./lib/card');
