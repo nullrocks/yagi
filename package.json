@@ -1,6 +1,6 @@
 {
   "name": "yagi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yagi Payments by Flap - NodeJS API Wrapper",
   "main": "yagi.js",
   "scripts": {
