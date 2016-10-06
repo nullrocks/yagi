@@ -11,17 +11,18 @@ module.exports = (token, dev) => {
   
   const Client = require('./lib/client');
   const Card = require('./lib/card');
-  const factory = require('./lib/factory');
+  const cardFactory = require('./lib/card-factory');
+  const clientFactory = require('./lib/client-factory');
   const transaction = require('./lib/transaction');
   
   
   return {
     Client,
-    createClient : factory.createClient,
-    getClient : factory.getClient,
+    createClient : clientFactory.createClient,
+    getClient : clientFactory.getClient,
     Card,
-    createCard : factory.createCard,
-    getCard : factory.getCard,
+    createCard : cardFactory.createCard,
+    getCard : cardFactory.getCard,
     transaction
   }
   
